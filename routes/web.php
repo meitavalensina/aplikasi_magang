@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('home', 'DashboardController@home')->name('home');
+Route::get('industri', 'DashboardController@industri')->name('industri');
+Route::get('kost', 'DashboardController@kost')->name('kost');
+Route::get('kuliner', 'DashboardController@kuliner')->name('kuliner');
+Route::get('laundry', 'DashboardController@laundry')->name('laundry');
+Route::get('minimarket', 'DashboardController@minimarket')->name('minimarket');
+Route::get('transport', 'DashboardController@transport')->name('transport');
+Route::get('wisata', 'DashboardController@wisata')->name('wisata');
