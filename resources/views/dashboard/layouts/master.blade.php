@@ -92,7 +92,7 @@
                             <nav class="site-navigation position-relative text-right" role="navigation">
                                 <ul class="site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block">
                                     <li class="active">
-                                        <a href="/home" class="nav-link text-left">Home</a>
+                                        <a href="/dashboard" class="nav-link text-left">Home</a>
                                     </li>
                                     <li>
                                         <a href="/industri" class="nav-link text-left">Perusahaan</a>
