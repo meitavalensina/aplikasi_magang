@@ -17,9 +17,14 @@ Route::get('/', function () {
     return view('admin.layouts.master');
 });
 
-<<<<<<< HEAD
-Route::get('/home', 'AdminController@index');
-=======
+//-------------------------------------SISI ADMIN--------------------------------------------
+Route::get('/dashboard-admin', 'AdminController@index');
+Route::get('/industri-admin', 'AdminController@view_industri');
+Route::get('/createindustri-admin', 'AdminController@create_industri');
+Route::get('/editindustri-admin', 'AdminController@edit_industri');
+
+
+
 Route::get('home', 'DashboardController@home')->name('home');
 Route::get('industri', 'DashboardController@industri')->name('industri');
 Route::get('kost', 'DashboardController@kost')->name('kost');
@@ -28,4 +33,3 @@ Route::get('laundry', 'DashboardController@laundry')->name('laundry');
 Route::get('minimarket', 'DashboardController@minimarket')->name('minimarket');
 Route::get('transport', 'DashboardController@transport')->name('transport');
 Route::get('wisata', 'DashboardController@wisata')->name('wisata');
->>>>>>> 3f829d7eaebdcef81537a1c32e06a00f43b75acb

@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="{{asset('admin/css/animate.css')}}">
     <!-- normalize CSS
         ============================================ -->
-    <link rel="stylesheet" href="{{asset('admin/css/normalize.css')}}">
+    <link rel="stylesheet" href="{{asset('admin/css/normalize.css')}}"> 
     <!-- meanmenu icon CSS
         ============================================ -->
     <link rel="stylesheet" href="{{asset('admin/css/meanmenu.min.css')}}">
@@ -59,7 +59,7 @@
     <link rel="stylesheet" href="{{asset('admin/css/data-table/bootstrap-editable.css')}}">
     <!-- style CSS
         ============================================ -->
-    <link rel="stylesheet" href="{{asset('admin/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('admin/css/style.css')}}"> 
     <!-- responsive CSS
         ============================================ -->
     <link rel="stylesheet" href="{{asset('admin/css/responsive.css')}}">
@@ -83,83 +83,31 @@
                 <nav class="sidebar-nav left-sidebar-menu-pro">
                     <ul class="metismenu" id="menu1">
                         <li class="active">
-                            <a title="Landing Page" href="#" aria-expanded="false"><span class="educate-icon educate-home icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Dashboard</span></a>
+                            <a title="Landing Page" href="#" aria-expanded="false"><span class="fa fa-dashboard" aria-hidden="true"></span> <span class="mini-click-non">Dashboard</span></a>
                         </li>
-                        <li>
-                            <a class="has-arrow" href="#">
-                                   <span class="educate-icon educate-apps icon-wrap"></span>
-                                   <span class="mini-click-non">Industri</span>
-                                </a>
-                            <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="Dashboard v.1" href="index.html"><span class="mini-sub-pro">Dashboard v.1</span></a></li>
-                                <li><a title="Dashboard v.2" href="index-1.html"><span class="mini-sub-pro">Dashboard v.2</span></a></li>
-                                <li><a title="Dashboard v.3" href="index-2.html"><span class="mini-sub-pro">Dashboard v.3</span></a></li>
-                                <li><a title="Analytics" href="analytics.html"><span class="mini-sub-pro">Analytics</span></a></li>
-                                <li><a title="Widgets" href="widgets.html"><span class="mini-sub-pro">Widgets</span></a></li>
-                            </ul>
+                        <li class="active">
+                            <a title="Landing Page" href="/industri-admin" aria-expanded="false"><span class="fa fa-industry" aria-hidden="true"></span> <span class="mini-click-non">Industri</span></a>
                         </li>
-                        <li>
-                            <a class="has-arrow" href="234-semuakelas.html" aria-expanded="false"><span class="educate-icon educate-course icon-wrap"></span> <span class="mini-click-non">Kost</span></a>
-                            <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="Semua Kelas" href="234-semuakelas.html"><span class="mini-sub-pro">Semua Kelas</span></a></li>
-                                <li><a title="Semua Pengajar" href="234-pengajar.html"><span class="mini-sub-pro">Semua Pengajar</span></a></li>
-                                <li><a title="Semua Siswa" href="234-siswa.html"><span class="mini-sub-pro">Semua Siswa</span></a></li>
-                                <!-- <li><a title="Professor Profile" href="professor-profile.html"><span class="mini-sub-pro">Semua Pengguna</span></a></li> -->
-                            </ul>
+                        <li class="active">
+                            <a title="Landing Page" href="#" aria-expanded="false"><span class="fa fa-bed" aria-hidden="true"></span> <span class="mini-click-non">Kost</span></a>
                         </li>
-                        <li>
-                            <a class="has-arrow" href="234-semuakelas.html" aria-expanded="false"><span class="educate-icon educate-course icon-wrap"></span> <span class="mini-click-non">Transport</span></a>
-                            <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="Semua Kelas" href="234-semuakelas.html"><span class="mini-sub-pro">Semua Kelas</span></a></li>
-                                <li><a title="Semua Pengajar" href="234-pengajar.html"><span class="mini-sub-pro">Semua Pengajar</span></a></li>
-                                <li><a title="Semua Siswa" href="234-siswa.html"><span class="mini-sub-pro">Semua Siswa</span></a></li>
-                                <!-- <li><a title="Professor Profile" href="professor-profile.html"><span class="mini-sub-pro">Semua Pengguna</span></a></li> -->
-                            </ul>
+                        <li class="active">
+                            <a title="Landing Page" href="#" aria-expanded="false"><span class="fa fa-bus" aria-hidden="true"></span> <span class="mini-click-non">Transport</span></a>
                         </li>
-                        <li>
-                            <a class="has-arrow" href="234-semuakelas.html" aria-expanded="false"><span class="educate-icon educate-course icon-wrap"></span> <span class="mini-click-non">Wisata</span></a>
-                            <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="Semua Kelas" href="234-semuakelas.html"><span class="mini-sub-pro">Semua Kelas</span></a></li>
-                                <li><a title="Semua Pengajar" href="234-pengajar.html"><span class="mini-sub-pro">Semua Pengajar</span></a></li>
-                                <li><a title="Semua Siswa" href="234-siswa.html"><span class="mini-sub-pro">Semua Siswa</span></a></li>
-                                <!-- <li><a title="Professor Profile" href="professor-profile.html"><span class="mini-sub-pro">Semua Pengguna</span></a></li> -->
-                            </ul>
+                        <li class="active">
+                            <a title="Landing Page" href="#" aria-expanded="false"><span class="fa fa-street-view" aria-hidden="true"></span> <span class="mini-click-non">Wisata</span></a>
                         </li>
-                        <li>
-                            <a class="has-arrow" href="234-semuakelas.html" aria-expanded="false"><span class="educate-icon educate-course icon-wrap"></span> <span class="mini-click-non">Kuliner</span></a>
-                            <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="Semua Kelas" href="234-semuakelas.html"><span class="mini-sub-pro">Semua Kelas</span></a></li>
-                                <li><a title="Semua Pengajar" href="234-pengajar.html"><span class="mini-sub-pro">Semua Pengajar</span></a></li>
-                                <li><a title="Semua Siswa" href="234-siswa.html"><span class="mini-sub-pro">Semua Siswa</span></a></li>
-                                <!-- <li><a title="Professor Profile" href="professor-profile.html"><span class="mini-sub-pro">Semua Pengguna</span></a></li> -->
-                            </ul>
+                        <li class="active">
+                            <a title="Landing Page" href="#" aria-expanded="false"><span class="fa fa-cutlery" aria-hidden="true"></span> <span class="mini-click-non">Kuliner</span></a>
                         </li>
-                        <li>
-                            <a class="has-arrow" href="234-semuakelas.html" aria-expanded="false"><span class="educate-icon educate-course icon-wrap"></span> <span class="mini-click-non">Laundry</span></a>
-                            <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="Semua Kelas" href="234-semuakelas.html"><span class="mini-sub-pro">Semua Kelas</span></a></li>
-                                <li><a title="Semua Pengajar" href="234-pengajar.html"><span class="mini-sub-pro">Semua Pengajar</span></a></li>
-                                <li><a title="Semua Siswa" href="234-siswa.html"><span class="mini-sub-pro">Semua Siswa</span></a></li>
-                                <!-- <li><a title="Professor Profile" href="professor-profile.html"><span class="mini-sub-pro">Semua Pengguna</span></a></li> -->
-                            </ul>
+                        <li class="active">
+                            <a title="Landing Page" href="#" aria-expanded="false"><span class="fa fa-camera-retro" aria-hidden="true"></span> <span class="mini-click-non">Laundry</span></a>
                         </li>
-                        <li>
-                            <a class="has-arrow" href="234-semuakelas.html" aria-expanded="false"><span class="educate-icon educate-course icon-wrap"></span> <span class="mini-click-non">Minimarket</span></a>
-                            <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="Semua Kelas" href="234-semuakelas.html"><span class="mini-sub-pro">Semua Kelas</span></a></li>
-                                <li><a title="Semua Pengajar" href="234-pengajar.html"><span class="mini-sub-pro">Semua Pengajar</span></a></li>
-                                <li><a title="Semua Siswa" href="234-siswa.html"><span class="mini-sub-pro">Semua Siswa</span></a></li>
-                                <!-- <li><a title="Professor Profile" href="professor-profile.html"><span class="mini-sub-pro">Semua Pengguna</span></a></li> -->
-                            </ul>
+                        <li class="active">
+                            <a title="Landing Page" href="#" aria-expanded="false"><span class="fa fa-shopping-bag" aria-hidden="true"></span> <span class="mini-click-non">Minimarket</span></a>
                         </li>
-                        <li>
-                            <a class="has-arrow" href="234-semuakelas.html" aria-expanded="false"><span class="educate-icon educate-course icon-wrap"></span> <span class="mini-click-non">Tips dan Trik</span></a>
-                            <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="Semua Kelas" href="234-semuakelas.html"><span class="mini-sub-pro">Semua Kelas</span></a></li>
-                                <li><a title="Semua Pengajar" href="234-pengajar.html"><span class="mini-sub-pro">Semua Pengajar</span></a></li>
-                                <li><a title="Semua Siswa" href="234-siswa.html"><span class="mini-sub-pro">Semua Siswa</span></a></li>
-                                <!-- <li><a title="Professor Profile" href="professor-profile.html"><span class="mini-sub-pro">Semua Pengguna</span></a></li> -->
-                            </ul>
+                        <li class="active">
+                            <a title="Landing Page" href="#" aria-expanded="false"><span class="fa fa-commenting" aria-hidden="true"></span> <span class="mini-click-non">Tips dan Trik</span></a>
                         </li>
                     </ul>
                 </nav>
@@ -234,23 +182,14 @@
                                 <nav id="dropdown">
                                     <ul class="mobile-menu-nav">
                                         <li><a href="#">Dashboard</a></li>
-                                        <li><a data-toggle="collapse" data-target="#Charts" href="#">Profile<span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
-                                            <ul class="collapse dropdown-header-top">
-                                                <li><a href="index.html">Dashboard v.1</a></li>
-                                                <li><a href="index-1.html">Dashboard v.2</a></li>
-                                                <li><a href="index-3.html">Dashboard v.3</a></li>
-                                                <li><a href="analytics.html">Analytics</a></li>
-                                                <li><a href="widgets.html">Widgets</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a data-toggle="collapse" data-target="#Charts" href="#">Data Master<span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
-                                            <ul class="collapse dropdown-header-top">
-                                                <li><a href="index.html">Semua Kelas</a></li>
-                                                <li><a href="index-3.html">Semua Pengajar</a></li>
-                                                <li><a href="index-1.html">Semua Siswa</a></li>
-                                                <li><a href="analytics.html">Semua Pengguna</a></li>\
-                                            </ul>
-                                        </li>
+                                        <li><a href="#">Industri</a></li>
+                                        <li><a href="#">Kost</a></li>
+                                        <li><a href="#">Transport</a></li>
+                                        <li><a href="#">Wisata</a></li>
+                                        <li><a href="#">Kuliner</a></li>
+                                        <li><a href="#">Laundry</a></li>
+                                        <li><a href="#">Minimarket</a></li>
+                                        <li><a href="#">Tips dan Trik</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -260,7 +199,7 @@
             </div>
 <!-- HEADER END -->
 
-@yield('content')
+@yield('admin/content')
 
 <!-- FOOTER START -->
 
