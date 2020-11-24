@@ -83,31 +83,31 @@
                 <nav class="sidebar-nav left-sidebar-menu-pro">
                     <ul class="metismenu" id="menu1">
                         <li class="active">
-                            <a title="Landing Page" href="#" aria-expanded="false"><span class="fa fa-dashboard" aria-hidden="true"></span> <span class="mini-click-non">Dashboard</span></a>
+                            <a title="Landing Page" href="/dashboard-admin" aria-expanded="false"><span class="fa fa-dashboard" aria-hidden="true"></span> <span class="mini-click-non">Dashboard</span></a>
                         </li>
                         <li class="active">
                             <a title="Landing Page" href="/industri-admin" aria-expanded="false"><span class="fa fa-industry" aria-hidden="true"></span> <span class="mini-click-non">Industri</span></a>
                         </li>
                         <li class="active">
-                            <a title="Landing Page" href="#" aria-expanded="false"><span class="fa fa-bed" aria-hidden="true"></span> <span class="mini-click-non">Kost</span></a>
+                            <a title="Landing Page" href="/kost-admin" aria-expanded="false"><span class="fa fa-bed" aria-hidden="true"></span> <span class="mini-click-non">Kost</span></a>
                         </li>
                         <li class="active">
                             <a title="Landing Page" href="#" aria-expanded="false"><span class="fa fa-bus" aria-hidden="true"></span> <span class="mini-click-non">Transport</span></a>
                         </li>
                         <li class="active">
-                            <a title="Landing Page" href="#" aria-expanded="false"><span class="fa fa-street-view" aria-hidden="true"></span> <span class="mini-click-non">Wisata</span></a>
+                            <a title="Landing Page" href="/wisata-admin" aria-expanded="false"><span class="fa fa-street-view" aria-hidden="true"></span> <span class="mini-click-non">Wisata</span></a>
                         </li>
                         <li class="active">
                             <a title="Landing Page" href="#" aria-expanded="false"><span class="fa fa-cutlery" aria-hidden="true"></span> <span class="mini-click-non">Kuliner</span></a>
                         </li>
                         <li class="active">
-                            <a title="Landing Page" href="#" aria-expanded="false"><span class="fa fa-camera-retro" aria-hidden="true"></span> <span class="mini-click-non">Laundry</span></a>
+                            <a title="Landing Page" href="/laundry-admin" aria-expanded="false"><span class="fa fa-camera-retro" aria-hidden="true"></span> <span class="mini-click-non">Laundry</span></a>
                         </li>
                         <li class="active">
                             <a title="Landing Page" href="#" aria-expanded="false"><span class="fa fa-shopping-bag" aria-hidden="true"></span> <span class="mini-click-non">Minimarket</span></a>
                         </li>
                         <li class="active">
-                            <a title="Landing Page" href="#" aria-expanded="false"><span class="fa fa-commenting" aria-hidden="true"></span> <span class="mini-click-non">Tips dan Trik</span></a>
+                            <a title="Landing Page" href="/tipstrik-admin" aria-expanded="false"><span class="fa fa-commenting" aria-hidden="true"></span> <span class="mini-click-non">Tips dan Trik</span></a>
                         </li>
                     </ul>
                 </nav>
