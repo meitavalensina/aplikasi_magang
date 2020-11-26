@@ -1,5 +1,5 @@
 @extends('admin/layouts/master')
-@section('title', 'Halaman Industri')
+@section('title', 'Halaman Kuliner')
 
 @section('admin/content')
 
@@ -19,7 +19,7 @@
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                         <ul class="breadcome-menu">
-                                            <li><span class="bread-blod">Kelola Data Industri</span>
+                                            <li><span class="bread-blod">Kelola Data Kuliner</span>
                                             </li>
                                         </ul>
                                     </div>
@@ -39,7 +39,7 @@
                         <div class="sparkline13-list">
                             <div class="sparkline13-hd">
                                 <div class="main-sparkline13-hd">
-                                    <h1><span class="table-project-n">Data Industri</span></h1>
+                                    <h1><span class="table-project-n">Data Kuliner</span></h1>
                                 </div>
                             </div>
                             <div class="sparkline13-graph">
@@ -52,7 +52,7 @@
 										</select>
                                     </div>
                                     <div>
-                                        <a href="/createindustri-admin" class="btn btn-primary btn-s"> (+) Tambah Data</a>
+                                        <a href="/create-kuliner-admin" class="btn btn-primary btn-s"> (+) Tambah Data</a>
                                     </div>
                                     <table id="table" data-toggle="table" data-pagination="true" data-add="true" data-search="true" data-show-columns="true" data-show-pagination-switch="true" data-show-refresh="true" data-key-events="true" data-show-toggle="true" data-resizable="true" data-cookie="true"
                                         data-cookie-id-table="saveId" data-show-export="true" data-click-to-select="true" data-toolbar="#toolbar">
@@ -60,27 +60,27 @@
                                             <tr>
                                                 <th>Kode</th>
                                                 <th>Nama</th>
-                                                <th>Alamat</th>
-                                                <th>Bidang</th>
+                                                <th>Lokasi</th>
                                                 <th>Gambar</th>
-                                                <th>Periode</th>
                                                 <th>Deskripsi</th>
+                                                <th>Harga</th>
+                                                <th>Jadwal buka</th>
                                                 <th>Aksi</th>
                                             </tr>
                                         </thead>
                                         <tbody>
-                                        @foreach ($industri as $ind)
+                                        @foreach ($kuliner as $kul)
                                             <tr>
-                                                <td>{{$ind->kode_industri}}</td>
-                                                <td>{{$ind->nama}}</td>
-                                                <td>{{$ind->alamat}}</td>
-                                                <td>{{$ind->bidang}}</td>
-                                                <td><img width="300px" src="{{url('/gambar/'.$ind->gambar)}}"></td>
-                                                <td>{{$ind->periode}}</td>
-                                                <td>{{$ind->deskripsi}}</td>
+                                                <td>{{$kul->kode_kuliner}}</td>
+                                                <td>{{$kul->nama}}</td>
+                                                <td>{{$kul->lokasi}}</td>
+                                                <td><img width="300px" src="{{url('/gambar/'.$kul->gambar)}}"></td>
+                                                <td>{{$kul->deskripsi}}</td>
+                                                <td>{{$kul->harga}}</td>
+                                                <td>{{$kul->jadwal_buka}}</td>
                                                 <td>
-                                                    <a href="/editindustri-admin/{{$ind->kode_industri}}" data-toggle="tooltip" title="isi materi" class="pd-setting-ed"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
-                                                    <a href="/hapus-industri-admin/{{$ind->kode_industri}}" data-toggle="tooltip" title="isi materi" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                                                    <a href="/editkuliner-admin/{{$kul->kode_kuliner}}" data-toggle="tooltip" title="isi materi" class="pd-setting-ed"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                                                    <a href="/hapus-kuliner-admin/{{$kul->kode_kuliner}}" data-toggle="tooltip" title="isi materi" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
                                                 </td>
                                             </tr>
                                             @endforeach   

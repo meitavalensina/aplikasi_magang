@@ -8,7 +8,7 @@ class DashboardController extends Controller
 {
     public function home()
     {
-        return view('dashboard.content.home');
+        return view('dashboard.content.dashboard');
     }
 
     public function industri()

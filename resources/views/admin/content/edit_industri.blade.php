@@ -19,33 +19,41 @@
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="review-content-section">
                                                 <div id="dropzone1" class="pro-ad addcoursepro">
-                                                    <form action="/upload" class="dropzone dropzone-custom needsclick addcourse" id="demo1-upload">
+                                                    <form action="/proseseditindustri-admin/{{$industri->kode_industri}}" method="post" enctype="multipart/form-data" class="dropzone dropzone-custom needsclick addcourse" id="demo1-upload">
+                                                    {{csrf_field()}}
+                                                    @method('PATCH')
                                                         <div class="row">
                                                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                                                 <div class="form-group">
-                                                                    <input name="nama" type="text" class="form-control" placeholder="Nama Industri">
+                                                                    <label for="exampleFormControlTextarea1">Perusahaan</label>
+                                                                    <input name="nama" type="text" class="form-control" value="{{$industri->nama}}">
                                                                 </div>
                                                                 <div class="form-group">
-                                                                    <textarea name="alamat" placeholder="Alamat"></textarea>
+                                                                    <label for="exampleFormControlTextarea1">Alamat</label>
+                                                                    <textarea name="alamat" type="text" class="form-control">{{$industri->alamat}}</textarea>
                                                                 </div>
                                                                 <div class="form-group">
-                                                                    <input name="bidang" id="finish" type="text" class="form-control" placeholder="Bidang">
+                                                                    <label for="exampleFormControlTextarea1">Bidang</label>
+                                                                    <input name="bidang" type="text" class="form-control" value="{{$industri->bidang}}">
                                                                 </div>
-                                                                <div class="form-group">
-                                                                    <input name="periode" type="text" class="form-control" placeholder="Waktu Magang">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                                                 <div class="form-group alert-up-pd">
+                                                                <label for="exampleFormControlTextarea1">Gambar</label>
                                                                     <div class="dz-message needsclick download-custom">
                                                                         <i class="fa fa-download edudropnone" aria-hidden="true"></i>
                                                                         <h2 class="edudropnone">Drop image here or click to upload.</h2>
-                                                                        <input name="Gambar" type="file" class="form-control" placeholder="Course Price">
+                                                                        <input name="gambar" type="file" class="form-control" placeholder="Course Price">
                                                                     </div>
                                                                 </div>
                                                                 <div class="form-group">
-                                                                    <textarea name="description" placeholder="Description"></textarea>
+                                                                <label for="exampleFormControlTextarea1">Periode</label>
+                                                                    <input name="periode" type="text" class="form-control"  value="{{$industri->periode}}">
                                                                 </div>
+                                                            </div>
+                                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                                <div class="form-group">
+                                                                <label for="exampleFormControlTextarea1">Deskripsi</label>
+                                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="deskripsi">{{$industri->deskripsi}}</textarea>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                         <div class="row">

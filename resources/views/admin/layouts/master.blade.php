@@ -98,13 +98,13 @@
                             <a title="Landing Page" href="/wisata-admin" aria-expanded="false"><span class="fa fa-street-view" aria-hidden="true"></span> <span class="mini-click-non">Wisata</span></a>
                         </li>
                         <li class="active">
-                            <a title="Landing Page" href="#" aria-expanded="false"><span class="fa fa-cutlery" aria-hidden="true"></span> <span class="mini-click-non">Kuliner</span></a>
+                            <a title="Landing Page" href="/kuliner-admin" aria-expanded="false"><span class="fa fa-cutlery" aria-hidden="true"></span> <span class="mini-click-non">Kuliner</span></a>
                         </li>
                         <li class="active">
                             <a title="Landing Page" href="/laundry-admin" aria-expanded="false"><span class="fa fa-camera-retro" aria-hidden="true"></span> <span class="mini-click-non">Laundry</span></a>
                         </li>
                         <li class="active">
-                            <a title="Landing Page" href="#" aria-expanded="false"><span class="fa fa-shopping-bag" aria-hidden="true"></span> <span class="mini-click-non">Minimarket</span></a>
+                            <a title="Landing Page" href="/minimarket-admin" aria-expanded="false"><span class="fa fa-shopping-bag" aria-hidden="true"></span> <span class="mini-click-non">Minimarket</span></a>
                         </li>
                         <li class="active">
                             <a title="Landing Page" href="/tipstrik-admin" aria-expanded="false"><span class="fa fa-commenting" aria-hidden="true"></span> <span class="mini-click-non">Tips dan Trik</span></a>
