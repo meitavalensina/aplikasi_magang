@@ -14,8 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('admin.layouts.master');
+    return redirect('login');
 });
+
+Auth::routes();
+Route::get('/logout', 'AdminController@logout');
 
 Route::get('dashboard', 'DashboardController@home')->name('dashboard');
 //-------------------------------------SISI ADMIN--------------------------------------------

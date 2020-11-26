@@ -10,6 +10,7 @@ use App\Kost;
 use App\Wisata;
 use App\Laundry;
 use App\Tips_trik;
+use Auth;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\Facades\Input;
 use App\Rules\MatchOldPassword;
@@ -471,5 +472,10 @@ class AdminController extends Controller
         $tipstrik = Tips_trik::find($id);
         $tipstrik->delete();
         return redirect('/tipstrik-admin');
+    }
+
+    public function logout(){
+        Auth::logout();
+        return redirect('/login');
     }
 }
