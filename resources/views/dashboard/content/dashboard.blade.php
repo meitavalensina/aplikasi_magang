@@ -3,10 +3,8 @@
 @section('title', 'Home Magang.IT')
 
 @section ('container')
-
 <div class="site-section py-0">
   <div class="owl-carousel hero-slide owl-style">
-
     <div class="site-section">
       <div class="container">
         <div class="half-post-entry d-block d-lg-flex bg-light">
@@ -123,7 +121,7 @@
 
           <div class="col-md-3">
             <div class="post-entry-1">
-              <a href="post-single.html"><img src="images/wisata.png" alt="Image" class="img-fluid"></a>
+              <a href="post-single.html"><img src="images/minimarket2.png" alt="Image" class="img-fluid"></a>
               <h2 style="text-align: center; font-size:30px"><a href="blog-single.html">Minimarket</a></h2>
               <div class="post-meta">
                 <span class="d-block"><a href="#">Dave Rogers</a> in <a href="#">News</a></span>

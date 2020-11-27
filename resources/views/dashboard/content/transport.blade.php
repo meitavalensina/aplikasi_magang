@@ -18,7 +18,7 @@
                 <class class="row">
                     <div class="col-md-6">
                         <div class="post-entry-1">
-                            <a a href="images/img_h_1.jpg" data-fancybox="gal"><img src="images/img_h_1.jpg" alt="Image" class="img-fluid"></a>
+                            <a a href="images/img_h_1.jpg" data-fancybox="gal"><img src="gambar/transport1.jpg" alt="Image" class="img-fluid"></a>
                             <h2 style="font-size: 30px; text-align:center"><a href="blog-single.html">Kreasi Kode</a></h2>
                             <p>Jl. Garuda No.78A, Manukan, Condong Catur, Condongcatur, Sleman, Manukan, Condongcatur, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55283</p>
                             <div class="post-meta">
@@ -28,7 +28,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="post-entry-1">
-                            <a a href="images/img_h_1.jpg" data-fancybox="gal"><img src="images/img_h_1.jpg" alt="Image" class="img-fluid"></a>
+                            <a a href="images/img_h_1.jpg" data-fancybox="gal"><img src="gambar/transport1.jpg" alt="Image" class="img-fluid"></a>
                             <h2 style="font-size: 30px; text-align:center"><a href="blog-single.html">Kreasi Kode</a></h2>
                             <p>Jl. Garuda No.78A, Manukan, Condong Catur, Condongcatur, Sleman, Manukan, Condongcatur, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55283</p>
                             <div class="post-meta">

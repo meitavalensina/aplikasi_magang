@@ -79,11 +79,33 @@ Route::post('/updatetipstrik-admin/{id}', 'AdminController@update_tipstrik');
 Route::get('/hapustipstrik-admin/{id}', 'AdminController@hapus_tipstrik');
 
 //------------------------------------LANDING Page----------------------------
-Route::get('home', 'DashboardController@home')->name('home');
+Route::get('kontak', 'DashboardController@kontak')->name('kontak');
+
+Route::get('dashboard', 'DashboardController@home')->name('dashboard');
+
+
+Route::get('/cari-industri', 'DashboardController@cariindustri')->name('cari-industri');
 Route::get('industri', 'DashboardController@industri')->name('industri');
+Route::get('industri-detail/{industri}', 'DashboardController@detail_industri')->name('industri-detail');
+
+Route::get('cari-kost', 'DashboardController@carikost')->name('cari-kost');
 Route::get('kost', 'DashboardController@kost')->name('kost');
+Route::get('kost-detail/{kos}', 'DashboardController@detail_kos')->name('kost-detail');
+
+Route::get('cari-kuliner', 'DashboardController@carikuliner')->name('cari-kuliner');
 Route::get('kuliner', 'DashboardController@kuliner')->name('kuliner');
+Route::get('kuliner-detail/{kuliner}', 'DashboardController@detail_kuliner')->name('kuliner-detail');
+
+Route::get('cari-laundry', 'DashboardController@carilaundry')->name('cari-laundry');
 Route::get('laundry', 'DashboardController@laundry')->name('laundry');
+Route::get('laundry-detail/{laundry}', 'DashboardController@detail_laundry')->name('laundry-detail');
+
+Route::get('cari-minimarket', 'DashboardController@cariminimarket')->name('cari-minimarket');
 Route::get('minimarket', 'DashboardController@minimarket')->name('minimarket');
+Route::get('minimarket-detail/{minimarket}', 'DashboardController@detail_minimarket')->name('minimarket-detail');
+
 Route::get('transport', 'DashboardController@transport')->name('transport');
+
+Route::get('cari-wisata', 'DashboardController@cariwisata')->name('cari-wisata');
 Route::get('wisata', 'DashboardController@wisata')->name('wisata');
+Route::get('wisata-detail/{wisata}', 'DashboardController@detail_wisata')->name('wisata-detail');
