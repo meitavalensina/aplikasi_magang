@@ -8,5 +8,5 @@ class Industri extends Model
 {
     protected $table = 'industris';
     protected $primaryKey = 'kode_industri';
-    protected $fillable = ['kode_industri', 'nama','alamat','bidang','gambar','periode','deskripsi'];
+    protected $fillable = ['kode_industri', 'nama','alamat','kontak','bidang','gambar','periode','deskripsi'];
 }

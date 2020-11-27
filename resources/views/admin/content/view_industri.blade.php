@@ -61,6 +61,7 @@
                                                 <th>Kode</th>
                                                 <th>Nama</th>
                                                 <th>Alamat</th>
+                                                <th>Kontak</th>
                                                 <th>Bidang</th>
                                                 <th>Gambar</th>
                                                 <th>Periode</th>
@@ -74,6 +75,7 @@
                                                 <td>{{$ind->kode_industri}}</td>
                                                 <td>{{$ind->nama}}</td>
                                                 <td>{{$ind->alamat}}</td>
+                                                <td>{{$ind->kontak}}</td>
                                                 <td>{{$ind->bidang}}</td>
                                                 <td><img width="300px" src="{{url('/gambar/'.$ind->gambar)}}"></td>
                                                 <td>{{$ind->periode}}</td>

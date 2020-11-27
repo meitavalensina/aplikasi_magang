@@ -36,6 +36,10 @@
                                                                     <label for="exampleFormControlTextarea1">Bidang</label>
                                                                     <input name="bidang" type="text" class="form-control" value="{{$industri->bidang}}">
                                                                 </div>
+                                                                <div class="form-group">
+                                                                    <label for="exampleFormControlTextarea1">Kontak</label>
+                                                                    <input name="kontak" type="text" class="form-control" value="{{$industri->kontak}}">
+                                                                </div>
                                                                 <div class="form-group alert-up-pd">
                                                                 <label for="exampleFormControlTextarea1">Gambar</label>
                                                                     <div class="dz-message needsclick download-custom">

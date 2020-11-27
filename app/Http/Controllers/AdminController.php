@@ -39,6 +39,7 @@ class AdminController extends Controller
             'kode_industri' => 'required',
             'nama' => 'required',
             'alamat' => 'required',
+            'kontak' => 'required',
             'bidang' => 'required',
             'gambar' => 'required|file|image|mimes:jpeg,png,jpg|max:2048',
             'periode' => 'required',
@@ -54,6 +55,7 @@ class AdminController extends Controller
             'kode_industri' => $request->kode_industri,
             'nama' => $request->nama,
             'alamat' => $request->alamat,
+            'kontak' => $request->kontak,
             'bidang' => $request->bidang,
             'gambar' =>$nama_gambar,
             'periode' => $request->periode,
@@ -69,6 +71,7 @@ class AdminController extends Controller
         $request->validate([
             'nama' => 'required',
             'alamat' => 'required',
+            'kontak' => 'required',
             'bidang' => 'required',
             'periode' => 'required',
             'deskripsi' => 'required',
@@ -76,6 +79,7 @@ class AdminController extends Controller
             $update = [
                 'nama' => $request->nama, 
                 'alamat' => $request->alamat,
+                'kontak' => $request->kontak,
                 'bidang' => $request->bidang,
                 'periode' => $request->periode,
                 'deskripsi' => $request->deskripsi];
@@ -87,6 +91,7 @@ class AdminController extends Controller
             }
             $update['nama'] = $request->get('nama');
             $update['alamat'] = $request->get('alamat');
+            $update['kontak'] = $request->get('kontak');
             $update['bidang'] = $request->get('bidang');
             $update['periode'] = $request->get('periode');
             $update['deskripsi'] = $request->get('deskripsi');

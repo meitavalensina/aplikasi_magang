@@ -33,6 +33,9 @@
                                                                     <textarea name="alamat" placeholder="Alamat"></textarea>
                                                                 </div>
                                                                 <div class="form-group">
+                                                                    <input name="kontak" id="finish" type="text" class="form-control" placeholder="Kontak">
+                                                                </div>
+                                                                <div class="form-group">
                                                                     <input name="bidang" id="finish" type="text" class="form-control" placeholder="Bidang">
                                                                 </div>
                                                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
